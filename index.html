@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendador de Películas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <header>
+        <!-- Requisito: Personalizado con tu nombre y colores acordes -->
+        <h1>Recomendador de Películas Interactivo</h1>
+        <p>Desarrollado por: Antonio</p>
+    </header>
+
+    <main>
+        <h2>Selecciona tu rango de edad</h2>
+        <div class="form-group">
+            <label for="edadSelect">Rango de Edades:</label>
+            <select id="edadSelect">
+                <option value="2-12">2 a 12 años</option>
+                <option value="13-17">13 a 17 años</option>
+                <option value="18+">18 o más</option>
+            </select>
+        </div>
+        <button id="btnRecomendar">Obtener Recomendaciones</button>
+
+        <div id="resultados" class="results-container">
+            <!-- Las recomendaciones se inyectarán aquí dinámicamente -->
+        </div>
+    </main>
+
+    <footer>
+        <p>Uriel Antonio Ramos Osornio - ITIID-71</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
